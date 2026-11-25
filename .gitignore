@@ -1,0 +1,27 @@
+# secrets and device tokens never go in the repo
+*.env
+.env*
+!.env.example
+secrets/
+devtoken
+*.token
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# node
+node_modules/
+dist/
+*.ehpk
+
+# data
+*.sqlite
+*.sqlite3
+*.db
+*.wav
+shots/
+
+.DS_Store

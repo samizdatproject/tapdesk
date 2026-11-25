@@ -1,0 +1,25 @@
+{
+  "package_id": "io.github.samizdatproject.tapdesk",
+  "edition": "202601",
+  "name": "TapDesk",
+  "version": "0.1.0",
+  "min_app_version": "2.2.10",
+  "min_sdk_version": "0.0.16",
+  "entrypoint": "index.html",
+  "permissions": [
+    {
+      "name": "network",
+      "desc": "Talks only to your own TapDesk server: public market prices, your watched TON wallet (read-only) and your paper trades.",
+      "whitelist": ["http://localhost:8788", "ws://localhost:8788"]
+    },
+    {
+      "name": "g2-microphone",
+      "desc": "Listens only while you hold to talk, for a voice command. The audio goes only to your own TapDesk server for transcription."
+    },
+    {
+      "name": "phone-microphone",
+      "desc": "Used for voice commands only when the glasses microphone is not available. The audio goes only to your own TapDesk server."
+    }
+  ],
+  "supported_languages": ["en"]
+}

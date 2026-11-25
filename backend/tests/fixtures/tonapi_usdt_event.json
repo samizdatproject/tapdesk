@@ -1,0 +1,77 @@
+{
+ "_note": "A real tonapi v2 /accounts/{id}/events item (public chain data, 2026-11-25): USDT received by Fragment's wallet. Image URLs removed.",
+ "events": [
+  {
+   "event_id": "628f168db5312efd99e0bc8faf4e4430eefaf32a722f7f7d1b682a0a56a3e6f0",
+   "account": {
+    "address": "0:852443f8599fe6a5da34fe43049ac4e0beb3071bb2bfb56635ea9421287c283a",
+    "name": "Fragment",
+    "is_scam": false,
+    "is_wallet": true
+   },
+   "timestamp": 1795628096,
+   "actions": [
+    {
+     "type": "JettonTransfer",
+     "status": "ok",
+     "JettonTransfer": {
+      "sender": {
+       "address": "0:23303d98036faeb23261d8614fec39a8cc95eff26eb657330465e97999ccd037",
+       "is_scam": false,
+       "is_wallet": true
+      },
+      "recipient": {
+       "address": "0:852443f8599fe6a5da34fe43049ac4e0beb3071bb2bfb56635ea9421287c283a",
+       "name": "Fragment",
+       "is_scam": false,
+       "is_wallet": true
+      },
+      "senders_wallet": "0:1a48cf109efc964c58c10136a76e9cb8ebf22f3ac18030b124ea3b92e30ca441",
+      "recipients_wallet": "0:32081d54752b9340a75c777a94af0483f07329dd296eb4f915bb45e477b93f8a",
+      "amount": "1755000",
+      "jetton": {
+       "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+       "name": "Tether USD",
+       "symbol": "USD₮",
+       "decimals": 6,
+       "verification": "whitelist",
+       "score": 100,
+       "description": "Tether Token for Tether USD"
+      }
+     },
+     "simple_preview": {
+      "name": "Jetton Transfer",
+      "description": "Transferring 1.75 USD₮",
+      "value": "1.75 USD₮",
+      "value_image": "https://cache.tonapi.io/imgproxy/T3PB4s7oprNVaJkwqbGg54nexKE0zzKhcrPv8jcWYzU/rs:fill:200:200:1/g:no/aHR0cHM6Ly90ZXRoZXIudG8vaW1hZ2VzL2xvZ29DaXJjbGUucG5n.webp",
+      "accounts": [
+       {
+        "address": "0:23303d98036faeb23261d8614fec39a8cc95eff26eb657330465e97999ccd037",
+        "is_scam": false,
+        "is_wallet": true
+       },
+       {
+        "address": "0:b113a994b5024a16719f69139328eb759596c38a25f59028b146fecdc3621dfe",
+        "name": "Tether USD",
+        "is_scam": false,
+        "is_wallet": false
+       }
+      ]
+     },
+     "base_transactions": [
+      "73cb1787123e0408d4acbd19dde7899b17e7277018cde23e8db5e598a3634cec",
+      "ee221a48902b99803ab9c9833afbbb826e740a68247da07d71fcaaf8d1e38006",
+      "af7ade10415c41b3306e81a631bcb8701243d0705f61dd0cebae308deed9c10e",
+      "8c6fbe7cb22b27f1342a27b3ffb4d4ca87d7d618f1e110942bc880ddf90dbe7f"
+     ]
+    }
+   ],
+   "is_scam": false,
+   "lt": 119034584000020,
+   "in_progress": false,
+   "extra": 1,
+   "progress": 1,
+   "ext_msg_hash": "b5829d15deeb141d6d5616a86273fae50096d73b6c54c34124bc7e05e05f9961"
+  }
+ ]
+}

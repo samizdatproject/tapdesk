@@ -10,7 +10,7 @@ Built for the [Heads Up: Even Realities hackathon](https://dorahacks.io/hackatho
 
 **▶ [Watch the demo video](https://samizdatproject.github.io/tapdesk/tapdesk-demo.mp4)** (1 min 5 s, captions only; file: [`docs/tapdesk-demo.mp4`](docs/tapdesk-demo.mp4)). One take in the Even Hub simulator, with a real 0.2 TON transfer to the watched wallet on TON mainnet.
 
-## On the glasses
+## Screens from the demo
 
 Real screens from that take (576×288).
 

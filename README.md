@@ -8,6 +8,23 @@
 
 Built for the [Heads Up: Even Realities hackathon](https://dorahacks.io/hackathon/even-realities/detail) (Nov 23–29, 2026).
 
+**▶ [Watch the demo video](https://samizdatproject.github.io/tapdesk/tapdesk-demo.mp4)** (1 min 5 s, captions only; file: [`docs/tapdesk-demo.mp4`](docs/tapdesk-demo.mp4)). One take in the Even Hub simulator, with a real 0.2 TON transfer to the watched wallet on TON mainnet.
+
+## On the glasses
+
+Real screens from that take (576×288).
+
+| | |
+|---|---|
+| ![Session](docs/screens/1-session.png) | ![Arrival](docs/screens/2-arrival.png) |
+| **Session.** Total, paper P&L, the wallet, and the best price per coin with its venue. | **Arrival.** Real TON or USDT lands in the wallet: paper-buy with it, buy a fixed $250, or ignore. |
+| ![Undo](docs/screens/3-undo.png) | ![Filled](docs/screens/4-filled.png) |
+| **2-second undo.** Shows the best ask right now and where. Double-tap cancels. | **Filled** at the best price across Binance, Bybit, Coinbase and OKX. Paper only. |
+| ![Session after](docs/screens/5-session-after.png) | ![Positions](docs/screens/6-positions.png) |
+| **Updated.** Wallet and paper P&L in one glance. | **Positions.** Tap a row to paper-sell all of it. |
+| ![Voice](docs/screens/7-voice.png) | ![Alert set](docs/screens/8-alert-set.png) |
+| **Hold to talk.** Transcribed by whisper.cpp on your machine, parsed by published rules, then confirmed with a tap. | **Alert set.** It comes back as a card while TapDesk is open. |
+
 ## Two tracks, one flow
 
 TapDesk enters **03 · Exchanges & Stocks** and **02 · Crypto & DeFi (TON / Gram Wallet)**, because its core moment only works with both halves connected:
